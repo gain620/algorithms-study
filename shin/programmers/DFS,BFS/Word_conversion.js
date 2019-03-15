@@ -1,5 +1,5 @@
 function solution(begin, target, words) {
-    var result = {answer:0};
+    var result = {answer:0}; 
     var queue = [{begin:begin,depth:0}];
     Search(target,words,queue,result);
     return result.answer;
