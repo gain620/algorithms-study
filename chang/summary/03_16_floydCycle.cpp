@@ -8,6 +8,8 @@
  */
 
 // https://leetcode.com/problems/linked-list-cycle-ii
+// youtube video : Why Floyd's cycle detection algorithm works? Detecting loop in a linked list.
+// https://www.youtube.com/watch?v=LUm2ABqAs1w
 class Solution {
 public:
     ListNode* detectCycle(ListNode *head) {
