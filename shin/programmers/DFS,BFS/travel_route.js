@@ -25,7 +25,7 @@ var dest = path.substring(path.length-3);
     }
     for(var i=0; i <tickets.length; i++){
         if(tickets[i][0]==dest){
-            var _tickets = tickets.slice();
+            var _tickets = tickets.slice();   //deep_copy
             var _path = path+' '+(_tickets[i][1]);
             _tickets.splice(i,1);
             Search(_tickets,depth-1,result,_path);
