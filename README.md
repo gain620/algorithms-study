@@ -16,7 +16,7 @@ A personal archive for "solving algorithms" study group
 
 * 동적 계획법: 메모이제이션 문서도 참조.
 
-* 최소 신장 트리: 크러스컬 알고리즘, 프림 알고리즘
+* Minimum Spanning Tree (최소 신장 트리, 좋은 번역은 아님. 걸침 트리?): 크러스컬 알고리즘, 프림 알고리즘
 
 * 그래프 알고리즘: 경로 탐색, Union Find, 네트워크 흐름(network flow) 알고리즘
 
